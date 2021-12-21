@@ -22,7 +22,8 @@
 * Figma/Adobe Photoshop
 ***
 ## Code examples
-```const parsURL = (url) => {
+```
+const parsURL = (url) => {
     let resultArr = [];
     const regExp = /(https?:\/\/[A-Za-z0-9_\-\.]*)(\/[\w_\/\-]*)?(\?[\w=&]*)?(#.*)?/;
     const matchArr = url.match(regExp);
