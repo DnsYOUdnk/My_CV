@@ -1,6 +1,5 @@
-# [rsschool-cv](https://DnsYOUdnk.github.io/rsschool-cv/cv)
----
-# Denis Yudenko  
+# Denis Yudenko 
+![My foto](/photo_.jpg)
 ***
 # My contacts
 * **Phone number:** _+375(29) 306-83-68_
