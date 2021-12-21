@@ -22,15 +22,16 @@
 * Figma/Adobe Photoshop
 ***
 ## Code examples
-`const parsURL = (url) => {`
-`    let resultArr = [];`
-`    const regExp = /(https?:\/\/[A-Za-z0-9_\-\.]*)(\/[\w_\/\-]*)?(\?[\w=&]*)?(#.*)?/;`
-`    const matchArr = url.match(regExp);`
-`    for (let i = 1; i < matchArr.length; i++) {`
-`        resultArr.push(matchArr[i])`
-`    }`
-`    return resultArr;`
-`}`
+```const parsURL = (url) => {
+    let resultArr = [];
+    const regExp = /(https?:\/\/[A-Za-z0-9_\-\.]*)(\/[\w_\/\-]*)?(\?[\w=&]*)?(#.*)?/;
+    const matchArr = url.match(regExp);
+        for (let i = 1; i < matchArr.length; i++) {
+            resultArr.push(matchArr[i])
+        }
+    return resultArr
+}
+```
 ***
 ## Work experience
  * НПООО "Энергоприбор" - Design engineer 2016-2020
