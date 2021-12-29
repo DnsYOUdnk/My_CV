@@ -1,5 +1,5 @@
 # Denis Yudenko 
-![My foto](/photo_.jpg)
+![My foto](images/photo_.jpg)
 
 ****
 # My contacts
