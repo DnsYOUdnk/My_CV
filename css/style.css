@@ -1,4 +1,193 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.container {
+    width: 90%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.cv__app {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header,
+.footer {
+    flex: 0 0 auto;
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.header__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header__link span {
+    margin-left: 10px;
+}
+
+.nav__items {
+    display: flex;
+    list-style: none;
+}
+
+.nav__item a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+.author_inf__wrapper {
+    display: grid;
+    grid-template-areas: 
+    "profile_photo profile_name"
+    "profile_photo profile_contacts";
+    grid-template-columns: 280px auto; 
+    grid-template-rows: 70% auto; 
+    column-gap: 60px;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.author_inf__photo {
+    grid-area: profile_photo;
+}
+
+.author__avatar {
+    width: 280px;
+    border-radius: 30px;
+}
+
+.author_inf__name {
+    grid-area: profile_name;
+}
+
+.author_inf__name h1 {
+    font-size: 72px;
+}
+
+.author_inf__name p {
+    font-size: 36px;
+}
+
+.author_inf__contacts {
+    grid-area: profile_contacts;
+}
+
+.contacts__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+.contact__item a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding-right: 24px;
+    padding-bottom: 10px;
+}
+
+.contact__item a span{
+    padding-left: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__rss img{
+    width: 86px;
+    height: 32px;
 }
