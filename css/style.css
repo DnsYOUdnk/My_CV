@@ -116,13 +116,136 @@ body {
 }
 
 
+.about__wrapper {
+    display: flex;
+    padding-bottom: 30px;
+}
 
+.about__item {
+    padding: 18px 10px;
+    border: 1px solid red;
+    border-radius: 10px;
+    text-align: justify;
+    font-size: 18px;
+}
 
+.about__item h2 {
+    display: inline-block;
+    margin-bottom: 18px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    background-color: coral;
+    font-size: 32px;
+}
 
+.about__myself {
+    margin-right: 10px;
+}
 
+.skill__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
 
+.code__title,
+.skills__title {
+    font-size: 44px;
+    flex: 1 1 0;
+}
 
+.code__title h2,
+.skills__title h2 {
+    text-align: center;
+}
 
+.code__example,
+.skills__list {
+    flex: 1 1 0;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid burlywood;
+    border-radius: 5px;
+}
+
+.skills__items {
+    list-style: none;
+}
+
+.skills__item {
+    padding: 11px 0 10px 40px;
+}
+
+.skills__item:not(:last-child) {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.skills__item:nth-child(1) {
+    background: url(../images/icon_dwg.png) center left no-repeat;
+}
+
+.skills__item:nth-child(2) {
+    background: url(../images/icon_html5.png) center left no-repeat;
+}
+
+.skills__item:nth-child(3) {
+    background: url(../images/icon_css.png) center left no-repeat;
+}
+.skills__item:nth-child(4) {
+    background: url(../images/icon_js.png) center left no-repeat;
+}
+.skills__item:nth-child(5) {
+    background: url(../images/icon-github.png) center left no-repeat;
+}
+.skills__item:nth-child(6) {
+    background: url(../images/icon_photoshop.png) center left no-repeat;
+}
+.skills__item:nth-child(7) {
+    background: url(../images/icon_code.png) center left no-repeat;
+}
+
+.code__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding-bottom: 30px;
+}
+
+.code__table {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.code__violet {
+    color: blueviolet;
+}
+
+.code__azure {
+    color: rgb(91, 136, 136);
+}
+
+.code__orange {
+    color: orange;
+}
+
+.code__green {
+    color: green;
+}
+
+.code__blue {
+    color: blue;
+}
+
+.experience__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
 
 
 
