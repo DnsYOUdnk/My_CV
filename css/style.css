@@ -245,69 +245,21 @@ body {
     display: flex;
     justify-content: space-between;
     padding-bottom: 30px;
+    height: 300px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.languages__wrapper {
+    padding-bottom: 30px;
+    
+    
+    height: 200px;
+}
 
 .footer__wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 0;
 }
 
 .footer__rss img{
