@@ -4,9 +4,28 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Manrope Regular';
+    src: url(../fonts/Manrope-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Manrope Bold';
+    src: url(../fonts/Manrope-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'NunitoSans Bold';
+    src: url(../fonts/NunitoSans-Bold.ttf);
+}
+
 html,
 body {
     height: 100%;
+}
+
+body {
+    background-color: #181f27;
 }
 
 .container {
@@ -19,6 +38,20 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
+    font-family: 'Manrope Regular';
+    color: #dbdde9;
+    overflow-y: scroll;
+}
+
+.header__background {
+    position: absolute;
+    width: 980px;
+    height: 100%;
+    right: 0;
+    z-index: -1;
+    background: radial-gradient(47.35% 40.58% at 99.96% 41.27%, #40848C 0%, rgba(62, 132, 140, 0) 100%), radial-gradient(74.26% 49.64% at 83.63% 96.83%, #A46464 0%, #8B6C6F 62.15%, rgba(132, 110, 115, 0.7) 80.74%, rgba(124, 113, 118, 0) 100%), radial-gradient(55.74% 49% at 75.65% 3.28%, #0F6CAF 0%, rgba(38, 122, 156, 0.79) 46.63%, rgba(45, 126, 150, 0.51) 76.71%, rgba(56, 132, 142, 0) 100%), radial-gradient(45.06% 43.65% at 24.8% 74.44%, #C11E9B 0%, #873D7C 40.98%, rgba(125, 65, 137, 0.76) 70.43%, rgba(118, 64, 136, 0.560669) 86.94%, rgba(106, 63, 134, 0.22) 100%);
+    border-top-left-radius: 70% 46%;
+    border-bottom-left-radius: 100% 54%;
 }
 
 .header,
@@ -30,16 +63,26 @@ body {
     flex: 1 0 auto;
 }
 
+.header {
+    background-color: rgba(35, 39, 48, 0.843);
+    backdrop-filter: blur(3px);
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
 .header__wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 20px;
 }
 
-.header__link {
+.header__wrapper a {
     display: flex;
     align-items: center;
+    font-family: 'Manrope Bold';
+    font-size: 18px;
+    color: #dbdde9;
     text-decoration: none;
 }
 
@@ -53,9 +96,17 @@ body {
 }
 
 .nav__item a {
-    display: inline-block;
-    text-decoration: none;
-    padding: 20px 30px;
+    padding: 20px 20px;
+}
+
+.header__link:active {
+    transform: scale(0.8);
+}
+
+.nav__item a:hover {
+    background-color: rgba(50, 91, 107, 0.473);
+    color: #afb1bb;
+    transition: .4s;
 }
 
 .author_inf__wrapper {
@@ -68,7 +119,7 @@ body {
     column-gap: 60px;
     align-items: center;
     text-align: center;
-    padding-bottom: 30px;
+    padding: 30px 0;
 }
 
 .author_inf__photo {
