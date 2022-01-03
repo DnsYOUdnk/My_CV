@@ -45,7 +45,7 @@
                         </div>
                         <div class="author_inf__contacts">
                             <ul class="contacts__items">
-                                <li class="contact__item"><a href="tel:+375(29) 306-83-68"><img src="./images/icon_phone.png" alt="phone"><span>+375(29) 306-83-68</span></a></li>
+                                <li class="contact__item"><a href="tel:+375(29)306-83-68"><img src="./images/icon_phone.png" alt="phone"><span>+375(29)306-83-68</span></a></li>
                                 <li class="contact__item"><a href="mailto:yudenka@yandex.by"><img src="./images/icon_mail.png" alt="email"><span>d.yudenka@yandex.by</span></a></li>
                                 <li class="contact__item"><a href="https://discord.com/" target="_blank"><img src="./images/icon_discord.png" alt="discord"><span>Dinis(@DnsYOUdnk)</span></a></li>
                                 <li class="contact__item"><a href="https://www.facebook.com/profile.php?id=100001893087894" target="_blank"><img src="./images/icon_facebook.png" alt="facebook"></a></li>
@@ -63,7 +63,7 @@
                             <h2>About me</h2>
                             <p>I am 28 years old. For a long time worked in the industrial sphere as a design engineer. An interesting job, but over time it became clear that this is not my profession. I like the specifics of website development, so Frontend is my desire to learn something new and continue searching for myself. I am quite diligent and able-bodied. If I see the structure of the problem, I am ready to work until it is completed. I can't say that I catch everything quickly, but I’m ready for a painstaking path to gain new knowledge.</p>
                         </div>
-                        <div class="about__hobbies about__item">
+                        <div class="about__item">
                             <h2>My hobbies</h2>
                             <p>Various types of hobbies are gradually entering my life. I am engaged in cycling. It was only after school that I realized that I adore reading books. I love the Star Wars universe, except for the last trilogy. I follow the latest technologies, as well as what is happening there, in space. A new interest is playing the ukulele.</p>
                         </div>
@@ -95,6 +95,7 @@
                     <div class="code__wrapper">
                         <div class="code__title">
                             <h2>Code example</h2>
+                            <a href="https://www.codewars.com/users/DnsYOUdnk" target="_blank"><img src="https://www.codewars.com/users/DnsYOUdnk/badges/small" alt="Mycodewars"></a>
                         </div>
                         <div class="code__example">
                             <table class="code__table">
@@ -105,17 +106,17 @@
                                     </tr>
                                     <tr>
                                         <td>2</td>
-                                        <td><span class="code__violet">let</span>  resultArr = [];</td>
+                                        <td><span class="code__violet string__left">let</span>  resultArr = [];</td>
                                     </tr>
                                     <tr>
                                         <td>3</td>
                                         <td>
-                                            <span class="code__violet">const</span> regExp = <span class="code__azure">/(<span class="code__green">https<span class="code__orange">?</span>:</span><span class="code__violet">\/\/</span>[<span class="code__violet">A-Za-z0-9_\-\.</span>]<span class="code__orange">*</span>)(<span class="code__violet">\/</span>[<span class="code__violet">\w_\/\-</span>]<span class="code__orange">*</span>)<span class="code__orange">?</span>(<span class="code__violet">\?</span>[<span class="code__violet">\w=&</span>]<span class="code__orange">*</span>)<span class="code__orange">?</span>(<span class="code__green">#</span><span class="code__violet">.</span><span class="code__orange">*</span>)<span class="code__orange">?</span>/</span>;
+                                            <span class="code__violet string__left">const</span> regExp = <span class="code__azure">/(<span class="code__green">https<span class="code__orange">?</span>:</span><span class="code__violet">\/\/</span>[<span class="code__violet">A-Za-z0-9_\-\.</span>]<span class="code__orange">*</span>)(<span class="code__violet">\/</span>[<span class="code__violet">\w_\/\-</span>]<span class="code__orange">*</span>)<span class="code__orange">?</span>(<span class="code__violet">\?</span>[<span class="code__violet">\w=&</span>]<span class="code__orange">*</span>)<span class="code__orange">?</span>(<span class="code__green">#</span><span class="code__violet">.</span><span class="code__orange">*</span>)<span class="code__orange">?</span>/</span>;
                                         </td>
                                     </tr>                                
                                     <tr>
                                         <td>4</td>
-                                        <td><span class="code__violet">const</span> matchArr = url.<span class="code__blue">match</span>(regExp);</td>
+                                        <td><span class="code__violet string__left">const</span> matchArr = url.<span class="code__blue">match</span>(regExp);</td>
                                     </tr>
                                     <tr>
                                         <td>5</td>
@@ -123,22 +124,22 @@
                                     </tr>
                                     <tr>
                                         <td>6</td>
-                                        <td><span class="code__violet">for</span> (<span class="code__violet">let</span> i = <span class="code__orange">1</span>; i < matchArr.<span class="code__blue">length</span>; i<span class="code__orange">++</span>) {</td>
+                                        <td><span class="code__violet string__left">for</span> (<span class="code__violet">let</span> i = <span class="code__orange">1</span>; i &lt; matchArr.<span class="code__blue">length</span>; i<span class="code__orange">++</span>) {</td>
                                         </tr>
                                     <tr>
-                                        <td>7</td><td>resultArr.<span class="code__blue">push</span>(matchArr[i])</td>
+                                        <td>7</td><td><span class="string__double-left">resultArr.</span><span class="code__blue">push</span>(matchArr[i])</td>
                                     </tr>
                                     <tr>
                                         <td>8</td>
-                                        <td>}</td>
+                                        <td><span class="string__left">}</span></td>
                                     </tr>
                                     <tr>
                                         <td>9</td>
-                                        <td><span class="code__violet">return</span> resultArr;</td>
+                                        <td><span class="code__violet string__left">return</span> resultArr;</td>
                                     </tr>
                                     <tr>
                                         <td>10</td>
-                                        <td>}</td>
+                                        <td>} <span class="text-cursor"></span> </td>
                                     </tr>
                                     <tr>
                                         <td>11</td>
@@ -180,7 +181,7 @@
                             <h2>Work experience</h2>
                             <ul>
                                 <li>
-                                    НПООО “Энергоприбор”  <span>Design engineer 2016-2020</span>
+                                    LLC “Energopribor” 2016-2020 <br /> <span>Design engineer</span>
                                 </li>
                             </ul>
                         </div>
