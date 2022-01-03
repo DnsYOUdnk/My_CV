@@ -4,9 +4,218 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="DnsYUOdnk">
+    <meta name="description" content="My CV">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./images/favicon.png">
+    <title>CV - Denis Yudenko</title>
 </head>
 <body>
-    
+    <div class="cv__app">
+        <div class="header__background"></div>
+        <header class="header">
+            <div class="container">
+                <div class="header__wrapper">
+                    <div class="header__homelogo">
+                        <a href="index.html" class="header__link"><img src="./images/logoCV.png" alt="logoCV"> <span>Home</span></a>
+                    </div>
+                    <nav class="header__navigation">
+                        <ul class="nav__items">
+                            <li class="nav__item"><a href="#about-me">About me</a></li>
+                            <li class="nav__item"><a href="#my-skill">Skills</a></li>
+                            <li class="nav__item"><a href="#code-exmp">Code</a></li>
+                            <li class="nav__item"><a href="#eductn">Education & Experience</a></li>
+                            <li class="nav__item"><a href="#langs">Languages</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="author_inf">
+                <div class="container">
+                    <div class="author_inf__wrapper">
+                        <div class="author_inf__photo">
+                            <img src="./images/photo_cv.jpg" alt="author photo" class="author__avatar">
+                        </div>
+                        <div class="author_inf__name">
+                            <h1>Denis Yudenko</h1>
+                            <p>Front-end Developer <br />
+                            (Beginner)</p>
+                        </div>
+                        <div class="author_inf__contacts">
+                            <ul class="contacts__items">
+                                <li class="contact__item"><a href="tel:+375(29)306-83-68"><img src="./images/icon_phone.png" alt="phone"><span>+375(29)306-83-68</span></a></li>
+                                <li class="contact__item"><a href="mailto:yudenka@yandex.by"><img src="./images/icon_mail.png" alt="email"><span>d.yudenka@yandex.by</span></a></li>
+                                <li class="contact__item"><a href="https://discord.com/" target="_blank"><img src="./images/icon_discord.png" alt="discord"><span>Dinis(@DnsYOUdnk)</span></a></li>
+                                <li class="contact__item"><a href="https://www.facebook.com/profile.php?id=100001893087894" target="_blank"><img src="./images/icon_facebook.png" alt="facebook"></a></li>
+                                <li class="contact__item"><a href="https://t.me/Karl_wazowski" target="_blank"><img src="./images/icon_telegram.png" alt="telegram"></a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="about" id="about-me">
+                <div class="container">
+                    <div class="about__wrapper">
+                        <div class="about__myself about__item">
+                            <h2>About me</h2>
+                            <p>I am 28 years old. For a long time worked in the industrial sphere as a design engineer. An interesting job, but over time it became clear that this is not my profession. I like the specifics of website development, so Frontend is my desire to learn something new and continue searching for myself. I am quite diligent and able-bodied. If I see the structure of the problem, I am ready to work until it is completed. I can't say that I catch everything quickly, but I’m ready for a painstaking path to gain new knowledge.</p>
+                        </div>
+                        <div class="about__item">
+                            <h2>My hobbies</h2>
+                            <p>Various types of hobbies are gradually entering my life. I am engaged in cycling. It was only after school that I realized that I adore reading books. I love the Star Wars universe, except for the last trilogy. I follow the latest technologies, as well as what is happening there, in space. A new interest is playing the ukulele.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="skills" id="my-skill">
+                <div class="container">
+                    <div class="skill__wrapper">
+                        <div class="skills__title">
+                            <h2>My skills</h2>
+                        </div>
+                        <div class="skills__list">
+                            <ul class="skills__items">
+                                <li class="skills__item">SolidWorks/AutoCAD/Compas3D</li>
+                                <li class="skills__item">HTML5</li>
+                                <li class="skills__item">CSS3</li>
+                                <li class="skills__item">JavaScript(Basic)</li>
+                                <li class="skills__item">Git/GitHub</li>
+                                <li class="skills__item">Adobe Photoshop/Figma</li>
+                                <li class="skills__item">VSCode/Sublime Text</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="code" id="code-exmp">
+                <div class="container">
+                    <div class="code__wrapper">
+                        <div class="code__title">
+                            <h2>Code example</h2>
+                            <a href="https://www.codewars.com/users/DnsYOUdnk" target="_blank"><img src="https://www.codewars.com/users/DnsYOUdnk/badges/small" alt="Mycodewars"></a>
+                        </div>
+                        <div class="code__example">
+                            <table class="code__table">
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td><span class="code__violet">const</span> <span class="code__azure">parsURL</span> = (<span class="code__orange">url</span>) <span class="code__violet">=></span> {</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td><span class="code__violet string__left">let</span>  resultArr = [];</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>
+                                            <span class="code__violet string__left">const</span> regExp = <span class="code__azure">/(<span class="code__green">https<span class="code__orange">?</span>:</span><span class="code__violet">\/\/</span>[<span class="code__violet">A-Za-z0-9_\-\.</span>]<span class="code__orange">*</span>)(<span class="code__violet">\/</span>[<span class="code__violet">\w_\/\-</span>]<span class="code__orange">*</span>)<span class="code__orange">?</span>(<span class="code__violet">\?</span>[<span class="code__violet">\w=&</span>]<span class="code__orange">*</span>)<span class="code__orange">?</span>(<span class="code__green">#</span><span class="code__violet">.</span><span class="code__orange">*</span>)<span class="code__orange">?</span>/</span>;
+                                        </td>
+                                    </tr>                                
+                                    <tr>
+                                        <td>4</td>
+                                        <td><span class="code__violet string__left">const</span> matchArr = url.<span class="code__blue">match</span>(regExp);</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td><span class="code__violet string__left">for</span> (<span class="code__violet">let</span> i = <span class="code__orange">1</span>; i &lt; matchArr.<span class="code__blue">length</span>; i<span class="code__orange">++</span>) {</td>
+                                        </tr>
+                                    <tr>
+                                        <td>7</td><td><span class="string__double-left">resultArr.</span><span class="code__blue">push</span>(matchArr[i])</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td><span class="string__left">}</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td><span class="code__violet string__left">return</span> resultArr;</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>} <span class="text-cursor"></span> </td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>12</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>13</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>14</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>15</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="experience" id="eductn">
+                <div class="container">
+                    <div class="experience__wrapper">
+                        <div class="education">
+                            <h2>Education</h2>
+                            <ul>
+                                <li>BNTU FITR 2011-2016 <span>Electrical engineer</span></li>
+                                <li>BNTU MIDO 2016-2018 <span>Master of Engineering and Technology</span></li>
+                            </ul>
+                        </div>
+                        <div class="experience__work">
+                            <h2>Work experience</h2>
+                            <ul>
+                                <li>
+                                    LLC “Energopribor” 2016-2020 <br /> <span>Design engineer</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="languages" id="langs">
+                <div class="container">
+                    <div class="languages__wrapper">
+                        <h2>Languages</h2>
+                        <ul>
+                            <li>
+                                English <span>A2+(Pre-intermediate)</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <div class="footer__github">
+                        <a href="https://github.com/DnsYOUdnk" target="_blank"><img src="./images/icon-github.png" alt="icon-github"></a>
+                    </div>
+                    <div class="footer__year">
+                        2021
+                    </div>
+                    <div class="footer__rss">
+                        <a href="https://rs.school/js/" target="_blank"><img src="./images/rs_school_js.svg" alt="icon__rss"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
