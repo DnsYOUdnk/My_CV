@@ -1,1 +1,1 @@
-https://DnsYOUdnk.github.io/rsschool-cv/
+https://dnsyoudnk.github.io/My_CV/
